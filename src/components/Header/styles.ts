@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Container = styled.div`
+/* export const Container = styled.div`
   width: 100%;
   height: 80px;
   font-size: 1.05rem;
@@ -40,4 +40,18 @@ export const Menu = styled.div`
   width: 1.8rem; 
   height: 1.8rem;
 }
-`
+` */
+
+
+export const Name = styled.a`
+  display: flex;
+  flex-flow: row nowrap;
+  gap: .5rem;
+  font-family: 'IBM Plex Sans', sans-serif;
+  align-items: center;
+  cursor: pointer;
+
+  p{
+    font-weight: 700;
+  }
+  `
