@@ -54,7 +54,7 @@ const Header = (): JSX.Element => {
   }
 
   return (
-    <div className="container" style={{ width: '100%' }}>
+    <div style={{ width: '100%' }}>
       <nav>
       <Name>
            <p>Thomás Caldana</p>
