@@ -1,18 +1,13 @@
-// import { Container, Name, Menu, Button } from '../Header/styles'
+import { Container, Nav } from '../Header/styles'
 import { SiLinkedin } from "react-icons/si"
-import { GiHamburgerMenu } from "react-icons/gi"
+// import { GiHamburgerMenu } from "react-icons/gi"
 import { useState } from 'react'
 import './navbar.css'
 import { Name } from '../Header/styles'
 
 const Header = (): JSX.Element => {
 
-  /*   // to change burger classes
-    const [burguerClass, setBurguerClass] = useState('burguer-bar unclicked')
-    const [menuClass, setMenuClass] = useState('menu hidden')
-    const [isMenuClicked, setIsMenuClicked] = useState(false)
-  
-  
+  /*
     return (
       <>
       <Container>
@@ -54,8 +49,8 @@ const Header = (): JSX.Element => {
   }
 
   return (
-    <div style={{ width: '100%' }}>
-      <nav>
+    <Container style={{ width: '100%' }}>
+      <Nav>
       <Name>
            <p>Thomás Caldana</p>
           <SiLinkedin />
@@ -65,7 +60,7 @@ const Header = (): JSX.Element => {
           <div className={burger_class} ></div>
           <div className={burger_class} ></div>
         </div>
-      </nav>
+      </Nav>
 
       <div className={menu_class}>
         <ul className='menu-options'>
@@ -75,7 +70,7 @@ const Header = (): JSX.Element => {
           <li className='li-item'><a>Social Media</a></li>
         </ul>
       </div>
-    </div>
+    </Container>
   )
 
 

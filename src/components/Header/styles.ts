@@ -42,7 +42,9 @@ export const Menu = styled.div`
 }
 ` */
 
-
+export const Container = styled.div`
+  background: #F1F1F1
+`
 export const Name = styled.a`
   display: flex;
   flex-flow: row nowrap;
@@ -54,4 +56,11 @@ export const Name = styled.a`
   p{
     font-weight: 700;
   }
+  `
+export const Nav = styled.nav`
+  width: 100%;
+  height: 4em;
+  display: flex;
+  justify-content:space-between;
+  padding: 1em;
   `
