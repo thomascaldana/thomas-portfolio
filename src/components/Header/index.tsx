@@ -1,9 +1,8 @@
-import { Container, Nav, MenuOptions } from '../Header/styles'
+import { Container, Name, Nav, MenuOptions } from '../Header/styles'
 import { SiLinkedin } from "react-icons/si"
 // import { GiHamburgerMenu } from "react-icons/gi"
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './navbar.css'
-import { Name } from '../Header/styles'
 
 const Header = (): JSX.Element => {
 
@@ -11,6 +10,14 @@ const Header = (): JSX.Element => {
   const [burger_class, setBurgerClass] = useState("burger-bar unclicked")
   const [menu_class, setMenuClass] = useState("menu hidden")
   const [isMenuClicked, setIsMenuClicked] = useState(false)
+
+  useEffect(() => {
+    
+    return () => {
+  
+    }
+  }, [])
+  
 
   // toggle burger menu change
   const updateMenu = () => {

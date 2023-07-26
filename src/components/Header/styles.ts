@@ -69,6 +69,7 @@ export const Container = styled.header`
 }
 
 
+
 }
 `
 export const Nav = styled.nav`
@@ -92,9 +93,7 @@ export const Nav = styled.nav`
   height: 0.25em;
   background-color: #000000;
   border-radius: 0.5em;
-  
 }
-
 
 }
   `

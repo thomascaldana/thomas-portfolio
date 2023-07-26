@@ -12,14 +12,15 @@
 
 
 /* ------------- sliding menu ------------------ */
-.hidden {
+
+/* .hidden {
   display: none;
+  
 }
 
 .visible {
   display: block;
-}
-
+} */
 /* ----- animations--------- */
 /* clicked */
 .burger-bar.clicked:nth-child(1){
