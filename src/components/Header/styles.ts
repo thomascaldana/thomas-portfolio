@@ -1,4 +1,8 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
+
+interface MenuOptionsProps {
+  isVisible: boolean;
+}
 
 /* export const Container = styled.div`
   width: 100%;
@@ -95,6 +99,27 @@ export const Nav = styled.nav`
   border-radius: 0.5em;
 }
 
+.burger-bar.clicked:nth-child(1){
+  transform: rotate(45deg) translate(0.25em, .5em);
+  transition: ease-out 0.5s;
+}
+
+.burger-bar.clicked:nth-child(2){
+  transform: scale(0.01);
+  /* // transition: ease-out 0.01s; */
+}
+
+.burger-bar.clicked:nth-child(3){
+  transform: rotate(135deg) translate(-.7em, 1em);
+  transition: ease-out 0.5s;
+}
+
+/* unclicked */
+.burger-bar.unclicked {
+  transform: rotate(0) translate(0);
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+}
+
 }
   `
 
@@ -111,12 +136,9 @@ export const Name = styled.a`
   }
   `
 
-export const MenuOptions = styled.div`
-.hidden {
-  display: none;
-}
+export const MenuOptions = styled.div<MenuOptionsProps>`
 
-.visible {
-  display: block;
-}
+${({ isVisible }) => css`
+    display: ${isVisible ? 'block' : 'none'};
+  `}
   `

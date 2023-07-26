@@ -1,8 +1,6 @@
 import { Container, Name, Nav, MenuOptions } from '../Header/styles'
 import { SiLinkedin } from "react-icons/si"
-// import { GiHamburgerMenu } from "react-icons/gi"
-import { useState, useEffect } from 'react'
-import './navbar.css'
+import { useState } from 'react'
 
 const Header = (): JSX.Element => {
 
@@ -11,15 +9,6 @@ const Header = (): JSX.Element => {
   const [menu_class, setMenuClass] = useState("menu hidden")
   const [isMenuClicked, setIsMenuClicked] = useState(false)
 
-  useEffect(() => {
-    
-    return () => {
-  
-    }
-  }, [])
-  
-
-  // toggle burger menu change
   const updateMenu = () => {
     if (!isMenuClicked) {
       setBurgerClass("burger-bar clicked")
@@ -46,8 +35,8 @@ const Header = (): JSX.Element => {
         </div>
       </Nav>
 
-      <MenuOptions className={menu_class}>
-        <ul className='menu-options'>
+      <MenuOptions className={menu_class} isVisible={isMenuClicked}>
+        <ul className='menu-options' >
           <li className='li-item'><a>Home</a></li>
           <li className='li-item'><a>Projects</a></li>
           <li className='li-item'><a>Contact</a></li>
@@ -57,10 +46,6 @@ const Header = (): JSX.Element => {
     </Container>
   )
 
-
 }
-
-
-
 
 export default Header
