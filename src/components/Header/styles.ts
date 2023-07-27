@@ -1,58 +1,15 @@
 import styled, { css } from 'styled-components'
-
 interface MenuOptionsProps {
   isVisible: boolean;
 }
 
-/* export const Container = styled.div`
-  width: 100%;
-  height: 80px;
-  font-size: 1.05rem;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  padding: 28px 12px;
-`
-export const Name = styled.a`
-  display: flex;
-  flex-flow: row nowrap;
-  gap: .5rem;
-  font-family: 'IBM Plex Sans', sans-serif;
-  align-items: center;
-  cursor: pointer;
-
-  p{
-    font-weight: 700;
-  }
-  `
-
-export const Button = styled.div`
-  background: #f1f1f1;
-  width: 50px;
-  height: 50px;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 5px;
-  `
-export const Menu = styled.div`
-  display: flex;
-  align-items: center;
-
-.menu-icon{
-  width: 1.8rem; 
-  height: 1.8rem;
-}
-` */
-
 export const Container = styled.header`
-  background: #F1F1F1;
+  background: #e6e6e6;
 
   .menu {
   width: 100%;
   height: 12rem;
-  background-color: rgb(206, 220, 250);
+  background-color: #e6e6e6;
   top: 0;
   z-index: -1;
 }
@@ -70,10 +27,8 @@ export const Container = styled.header`
 
   .li-item{
   list-style-type: none;
+  cursor: pointer;
 }
-
-
-
 }
 `
 export const Nav = styled.nav`
@@ -91,6 +46,14 @@ export const Nav = styled.nav`
   align-items: flex-start;
   justify-content: space-between;
   cursor: pointer;
+
+  @media screen and (min-width: 600px) {
+   display: none;
+}
+  @media screen and (min-width: 1300px) {
+   //margin: 0 120px;
+}
+  }
 
   .burger-bar {
   width: 2em;
@@ -120,7 +83,7 @@ export const Nav = styled.nav`
   transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
 }
 
-}
+
   `
 
 export const Name = styled.a`
@@ -130,10 +93,17 @@ export const Name = styled.a`
   font-family: 'IBM Plex Sans', sans-serif;
   align-items: center;
   cursor: pointer;
+  text-decoration: none;
 
   p{
     font-weight: 700;
+    color: #000000
   }
+
+  svg {
+    color: #000000
+  }
+
   `
 
 export const MenuOptions = styled.div<MenuOptionsProps>`
@@ -141,4 +111,27 @@ export const MenuOptions = styled.div<MenuOptionsProps>`
 ${({ isVisible }) => css`
     display: ${isVisible ? 'block' : 'none'};
   `}
+  
+  @media screen and (min-width: 600px) {
+   display: none;
+  }
+  `
+
+export const Ul = styled.ul`
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 30px;
+  font-size: 1.1rem;
+  font-family: sans-serif; 
+  cursor: pointer;
+  .li-item{
+  list-style-type: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+   display: none;
+}
   `

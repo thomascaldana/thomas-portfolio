@@ -1,7 +1,8 @@
+import { FC } from 'react'
 import { LineStyles } from '../Line/styles'
 
 
-const Line = () => {
+const Line: FC = () => {
 
 
   return (

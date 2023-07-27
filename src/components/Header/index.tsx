@@ -1,8 +1,8 @@
-import { Container, Name, Nav, MenuOptions } from '../Header/styles'
+import { Container, Name, Nav, MenuOptions, Ul } from '../Header/styles'
 import { SiLinkedin } from "react-icons/si"
-import { useState } from 'react'
+import { FC, useState } from 'react'
 
-const Header = (): JSX.Element => {
+export const Header: FC = () => {
 
   // to change burger classes
   const [burger_class, setBurgerClass] = useState("burger-bar unclicked")
@@ -24,10 +24,18 @@ const Header = (): JSX.Element => {
   return (
     <Container style={{ width: '100%' }}>
       <Nav>
-        <Name>
+        <Name href='https://www.linkedin.com/in/thomas-caldana/' target='_blank'>
            <p>Thomás Caldana</p>
           <SiLinkedin />
         </Name>
+
+        <Ul className='nav-links' >
+          <li className='li-item'><a>Home</a></li>
+          <li className='li-item'><a>Projects</a></li>
+          <li className='li-item'><a>Contact</a></li>
+          <li className='li-item'><a>Social Media</a></li>
+        </Ul>
+
         <div className="burger-menu" onClick={updateMenu}>
           <div className={burger_class} ></div>
           <div className={burger_class} ></div>
@@ -35,7 +43,7 @@ const Header = (): JSX.Element => {
         </div>
       </Nav>
 
-      <MenuOptions className={menu_class} isVisible={isMenuClicked}>
+      <MenuOptions className={menu_class} isVisible={isMenuClicked}> 
         <ul className='menu-options' >
           <li className='li-item'><a>Home</a></li>
           <li className='li-item'><a>Projects</a></li>
@@ -48,4 +56,3 @@ const Header = (): JSX.Element => {
 
 }
 
-export default Header
