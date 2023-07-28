@@ -37,9 +37,9 @@ export const Header: FC = () => {
         </Ul>
 
         <div className="burger-menu" onClick={updateMenu}>
-          <div className={burger_class} ></div>
-          <div className={burger_class} ></div>
-          <div className={burger_class} ></div>
+          <div className={burger_class}></div>
+          <div className={burger_class}></div>
+          <div className={burger_class}></div>
         </div>
       </Nav>
 
