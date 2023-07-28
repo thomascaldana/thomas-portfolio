@@ -1,10 +1,24 @@
-import styled, { css } from 'styled-components'
+import styled, { css, keyframes } from 'styled-components'
 interface MenuOptionsProps {
   isVisible: boolean;
 }
 
+const slideDownAnimation = keyframes`
+  from {
+    transform: translateY(-12%);
+  }
+  to {
+    transform: translateY(0);
+  }
+`;
+
 export const Container = styled.header`
+  position: fixed;
+  top: 0;
+  z-index: 1;
   background: #e6e6e6;
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,.75);
+  border-bottom: 2px solid  #6600ff;
 
   .menu {
   width: 100%;
@@ -15,11 +29,11 @@ export const Container = styled.header`
 }
 
 .menu-options {
-  padding: 20px 5px ;
+  padding: 1.2rem 1rem ;
   display: flex;
   flex-flow: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   align-content: center;
   gap: 20px;
   font-size: 1.1rem;
@@ -111,6 +125,8 @@ export const MenuOptions = styled.div<MenuOptionsProps>`
 ${({ isVisible }) => css`
     display: ${isVisible ? 'block' : 'none'};
   `}
+
+  animation: ${({ isVisible }) => (isVisible ? css`${slideDownAnimation} 0.5s ease` : 'none')}; 
   
   @media screen and (min-width: 600px) {
    display: none;
