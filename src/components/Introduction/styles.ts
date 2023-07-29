@@ -2,13 +2,18 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   margin-top: 4rem;
-  padding: 3rem 1.3rem 3rem 1.3rem;
+  padding: 2.9rem 1rem 2rem 1rem;
   display: flex;
   flex-flow: column;
-  gap: 1rem;
+  gap: .9rem;
 
   h1{
     text-align: center;
+
+    @media screen and (min-width: 800px) {
+   text-align: left;
+   font-size: 2.5rem;
+    }
   }
 `
 export const MyPhoto = styled.img`
@@ -34,4 +39,8 @@ export const SecondParagraph = styled.p`
   font-family: 'Inter', sans-serif;
   line-height: 1.75rem;
   text-align: center;
+
+  @media screen and (min-width: 800px) {
+   text-align: left;
+  }
 `

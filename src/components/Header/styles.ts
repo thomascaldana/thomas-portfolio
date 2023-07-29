@@ -64,9 +64,7 @@ export const Nav = styled.nav`
   @media screen and (min-width: 600px) {
    display: none;
 }
-  @media screen and (min-width: 1300px) {
-   //margin: 0 120px;
-}
+
   }
 
   .burger-bar {
