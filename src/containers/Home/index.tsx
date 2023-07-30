@@ -2,6 +2,7 @@ import { FC } from "react"
 import { Header } from "../../components/Header"
 import Introduction from "../../components/Introduction"
 import InitialButtons from "../../components/InitialButtons"
+import Technologies from "../../components/Technologies"
 
 
 const Home: FC = () => {
@@ -11,6 +12,7 @@ const Home: FC = () => {
       <Header />
       <Introduction />
       <InitialButtons />
+      <Technologies />
     </>
   )
 }

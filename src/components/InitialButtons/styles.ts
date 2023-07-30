@@ -4,6 +4,8 @@ import { BsWhatsapp } from 'react-icons/bs'
 import { FiDownload } from 'react-icons/fi'
 
 export const ContainerButtons = styled.div`
+max-width: 1300px;
+margin: 0 auto;
 display: flex;
 flex-flow: column nowrap;
 justify-content: center;
