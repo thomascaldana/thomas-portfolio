@@ -12,7 +12,6 @@ padding: 2rem 1rem;
 background: #f1f1f1;
 
 
-
 @media screen and (min-width: 800px) {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 8rem);

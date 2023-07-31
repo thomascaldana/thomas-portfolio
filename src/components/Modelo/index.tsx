@@ -1,15 +1,15 @@
 import { FC } from 'react'
-import { LineStyles } from './styles'
+import { Container } from './styles'
 
 
-const Line: FC = () => {
+const Model: FC = () => {
 
 
   return (
-    <>
-    <LineStyles/>
-    </>
+    <Container>
+  
+    </Container>
   )
 }
 
-export default Line
+export default Model
