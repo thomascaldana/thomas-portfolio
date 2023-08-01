@@ -6,6 +6,7 @@ import Technologies from "../../components/Technologies"
 import Line from "../../components/Line"
 import Projects from "../../components/Projects"
 import Contact from "../../components/Contact"
+import Footer from "../../components/Footer"
 
 
 
@@ -20,6 +21,8 @@ const Home: FC = () => {
       <Line />
       <Projects />
       <Contact />
+      <Line />
+      <Footer />
     </>
   )
 }
