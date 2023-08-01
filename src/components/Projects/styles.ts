@@ -19,6 +19,7 @@ align-items: center;
 margin-bottom: 4rem;
 `
 export const Img = styled.img`
+  margin-top: 1rem;
   width: 53rem;
   height: 28rem;
   transform: scale(1);
