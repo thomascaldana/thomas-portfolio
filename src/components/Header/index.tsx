@@ -44,9 +44,9 @@ export const Header: FC = () => {
 
       <MenuOptions className={menu_class} isVisible={isMenuClicked}> 
         <ul className='menu-options' >
-          <li className='li-item'><a>Home</a></li>
-          <li className='li-item'><a>Projects</a></li>
-          <li className='li-item'><a>Contact</a></li>
+          <li className='li-item'><NavLink href='#'>Home</NavLink></li>
+          <li className='li-item'><NavLink href='#projects'>Projects</NavLink></li>
+          <li className='li-item'><NavLink href='#contact'>Contact</NavLink></li>
         </ul>
       </MenuOptions>
     </Container>
