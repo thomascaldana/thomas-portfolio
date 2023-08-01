@@ -17,7 +17,7 @@ const InitialButtons: FC = () => {
       </Link>
 
 
-      <Link href='https://drive.google.com/file/d/1-vUvQNV1rAFDTIo50MPU0rTFgun-ksIm/view?usp=sharing' target='_blank'>
+      <Link href='https://drive.google.com/file/d/1-AGQ0W5xUuJpTFnkqGFlrc1ri6wrG62Z/view?usp=sharing' target='_blank'>
         <DownloadButton >
           Download Resume <FiDownloadStyled />
         </DownloadButton>
