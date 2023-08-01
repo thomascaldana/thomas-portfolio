@@ -15,7 +15,7 @@ const Introduction: FC = () => {
 
       <h1>I <Span>love</Span> to develop new ideas and create <Span>solutions</Span>.</h1>
 
-      <SecondParagraph>Welcome to my portfolio, this environment is created especially for you! I'm a Web Developer, and here, you see some of my projects and technologies. Check contact session if you have any feedbacks. 😉</SecondParagraph>
+      <SecondParagraph>Welcome to my portfolio, this environment is created especially for you! I'm a Web Developer, and here, you see some of my projects and technologies. Check contact session if you have any feedback. 😉</SecondParagraph>
       
     </Container>
   )
