@@ -36,7 +36,7 @@ const Contact: FC = () => {
 
           <ContainerText>
             <h3>My e-mail</h3>
-            <p>Send me an e-mail about your interest, feedbacks, suggestion and ideas</p>
+            <p>Send me an e-mail about your interest, feedback, suggestion and ideas</p>
             <a href='https://mail.google.com/mail/?view=cm&source=mailto&to=[thomascaldana@gmail.com]' target='_blank'>Send me an e-mail</a>
           </ContainerText>
         </ContainerItems>
