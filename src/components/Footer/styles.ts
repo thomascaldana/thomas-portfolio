@@ -83,7 +83,7 @@ export const PhotoContainer = styled.div`
 }
 `
 
-export const LinkedinButton = styled.button`
+export const LinkedinButton = styled.a`
 width: 2.8rem;
 height: 2.8rem;
 background:  linear-gradient(rgb(78, 115, 255) 0%, rgb(80, 108, 207) 100%);

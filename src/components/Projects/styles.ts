@@ -4,7 +4,7 @@ import { AiFillGithub } from 'react-icons/ai'
 
 export const Container = styled.div`
 max-width: 1300px;
-margin: 0 auto;
+margin: 3rem auto 0 auto;
 display: flex;
 flex-flow: column;
 justify-content: center;

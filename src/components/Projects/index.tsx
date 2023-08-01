@@ -12,7 +12,7 @@ const Projects: FC = () => {
 
 
   return (
-    <Container>
+    <Container id='projects'>
 
       <ProjectContainer>
         <TitleImg src={ProjectsTitle}></TitleImg>

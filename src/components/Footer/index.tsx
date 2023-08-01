@@ -21,7 +21,7 @@ const Footer: FC = () => {
 
         <LinkedinContainer>
           <GrayText>Follow me on Linkedin and let's talk</GrayText>
-          <LinkedinButton  >
+          <LinkedinButton href='https://www.linkedin.com/in/thomas-caldana/' target='_blank' >
             <SiLinkedinStyled />
           </LinkedinButton>
 

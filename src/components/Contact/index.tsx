@@ -6,7 +6,7 @@ const Contact: FC = () => {
 
 
   return (
-    <Container>
+    <Container id='contact'>
       <h2>Let's partner up to <span>develop solutions</span> that perfectly fit your company's <span>needs</span></h2>
 
       <div>
@@ -35,7 +35,7 @@ const Contact: FC = () => {
           </Link>
 
           <ContainerText>
-            <h3>My E-mail</h3>
+            <h3>My e-mail</h3>
             <p>Send me an e-mail about your interest, feedbacks, suggestion and ideas</p>
             <a href='https://mail.google.com/mail/?view=cm&source=mailto&to=[thomascaldana@gmail.com]' target='_blank'>Send me an e-mail</a>
           </ContainerText>

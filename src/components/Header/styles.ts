@@ -22,7 +22,7 @@ export const Container = styled.header`
 
   .menu {
   width: 100%;
-  height: 12rem;
+  height: 10rem;
   background-color: #e6e6e6;
   top: 0;
   z-index: -1;
@@ -42,6 +42,10 @@ export const Container = styled.header`
   .li-item{
   list-style-type: none;
   cursor: pointer;
+
+  a{
+    text-decoration: none;
+  }
 }
 }
 `
@@ -61,7 +65,7 @@ export const Nav = styled.nav`
   justify-content: space-between;
   cursor: pointer;
 
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 500px) {
    display: none;
 }
 
@@ -117,6 +121,10 @@ export const Name = styled.a`
   }
 
   `
+export const NavLink = styled.a`
+  text-decoration: none;
+  color: #000;
+  `
 
 export const MenuOptions = styled.div<MenuOptionsProps>`
 
@@ -145,7 +153,7 @@ export const Ul = styled.ul`
   list-style-type: none;
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 500px) {
    display: none;
 }
   `
