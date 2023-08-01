@@ -10,7 +10,7 @@ const InitialButtons: FC = () => {
     <ContainerButtons>
 
 
-      <Link>
+      <Link href='#projects'>
         <ExploreProjectsButton >
           Explore Projects
         </ExploreProjectsButton>
