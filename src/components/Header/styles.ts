@@ -151,6 +151,10 @@ export const Ul = styled.ul`
   cursor: pointer;
   .li-item{
   list-style-type: none;
+  
+  &:hover{
+      border-bottom: 2px solid lightgray;
+    }
   }
   
   @media screen and (max-width: 500px) {
