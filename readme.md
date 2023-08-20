@@ -2,7 +2,7 @@
 #### Web Developer
 
 <p align="center">
-<img src="https://github.com/thomascaldana/files-for-readmes/blob/main/Ilustra%C3%A7%C3%A3o%20projeto%20portfolio.jpg" alt="Example Image" width="450" />
+<img src="https://github.com/thomascaldana/files-for-readmes/blob/main/Ilustra%C3%A7%C3%A3o%20projeto%20portfolio%20svg.svg" alt="Example Image" width="450" />
 </p>
 
 
@@ -12,7 +12,7 @@
 Welcome to my portfolio, this environment is created especially for you! I'm a Web Developer, and here, you see some of my projects and technologies.
 
 <br>
-🚀 Technologies Used
+ <h4>🚀 Used Technologies </h4>
 
 - [ReactJS](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -21,7 +21,7 @@ Welcome to my portfolio, this environment is created especially for you! I'm a W
 
 
 <br>
-What you will find
+<h4>What you will find</h4>
 
 - My contact info and social media
 - My main projects with its own repo and demonstration
