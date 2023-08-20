@@ -5,10 +5,9 @@
 <img src="https://github.com/thomascaldana/files-for-readmes/blob/main/Ilustra%C3%A7%C3%A3o%20projeto%20portfolio%20svg.svg" alt="Example Image" width="450" />
 </p>
 
-
 <br>
 
-Welcome to my portfolio Readme! This environment is created especially for you! I'm a Web Developer, and here, you see some of my projects and technologies.
+Welcome to my portfolio's Readme! This environment is created especially for you! I'm a Web Developer, and here, you see some of my projects and technologies.
 
 <br>
 
