@@ -1,9 +1,10 @@
 ## Thomás' Portfolio
-#### Web Developer
+#### <  Web Developer  />
 
 <p align="center">
 <img src="https://github.com/thomascaldana/files-for-readmes/blob/main/Ilustra%C3%A7%C3%A3o%20projeto%20portfolio%20svg.svg" alt="Example Image" width="450" />
 </p>
+
 
 <br>
 
@@ -20,7 +21,7 @@ Welcome to my portfolio Readme! This environment is created especially for you! 
 
 
 <br>
-<h4>What you will find</h4>
+<h4> 🔎 What you will find</h4>
 
 - My contact info and social media.
 - My main projects with its own repo and demonstration.
