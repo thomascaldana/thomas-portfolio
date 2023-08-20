@@ -53,7 +53,7 @@ const Projects: FC = () => {
             GitHub Code
             <FaExternalLinkAlt />
           </Link>
-          <Link href='https://chart-generator-six.vercel.app/' target='_blank'>
+          <Link href='https://chartgenerator.vercel.app/' target='_blank'>
             See Demonstration
             <FaExternalLinkAlt />
           </Link>
