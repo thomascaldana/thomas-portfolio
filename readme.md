@@ -27,6 +27,12 @@ Welcome to my portfolio's Readme! This environment is created especially for you
 - The technologies I use.
 - And much more.
 
+
+<h4> 🔗 Go to Portfolio Deployment </h4>
+
+[![Go to Portfolio](https://img.shields.io/badge/Go%20to-Portfolio-brightgreen)](https://thomas-portfolio-pied.vercel.app/)
+
+
 <br align="center" >
   <td align="center">
     <td align="center">
