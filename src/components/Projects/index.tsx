@@ -48,7 +48,7 @@ const Projects: FC = () => {
       <ProjectContainer>
         <Img src={ChartGeneratorProject}></Img>
         <LinksWrapper>
-          <Link href='https://github.com/thomascaldana/chart-generator' target='_blank'>
+          <Link href='https://chart-generator-pro.vercel.app/' target='_blank'>
             <AiFillGithubStyled />
             GitHub Code
             <FaExternalLinkAlt />
